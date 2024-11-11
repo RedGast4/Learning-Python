@@ -1,5 +1,6 @@
 my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
 index = 0
+print(my_list, ' список')
 Data_Index = int(input('Введите индекс от |1 - 12| Ввод в консоль---> ')) - 1
 while index < Data_Index:
     number = my_list[index]
